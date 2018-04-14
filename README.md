@@ -30,6 +30,7 @@ npm start
 - [Break](examples/break.rs#L1)
 - [Continue](examples/continue.rs#L1)
 - [Enumerate](examples/break.rs#L1)
+- [String](examples/string.rs#L1)
 
 ## Concepts
 
