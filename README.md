@@ -31,6 +31,7 @@ npm start
 - [Continue](examples/continue.rs#L1)
 - [Enumerate](examples/break.rs#L1)
 - [String](examples/string.rs#L1)
+- [Match](examples/match.rs#L1)
 
 ## Concepts
 

@@ -1,7 +1,6 @@
 fn main() {
-
+    // simple match
     let x = 4;
-
     match x {
         0 => { println!("Value is 0"); }
         1 => { println!("Value is 1"); }
