@@ -1,19 +1,11 @@
 fn main() {
-    // loop forever
-    loop {
-        println!("Forever");
-    }
+    let condition = false;
 
-    // while loop
-    let mut count = 5;
-    while count > 1 {
-        count -= 1;
-        println!("Count is {}", count);
-    }
+    let number = if condition {
+        5
+    } else {
+        6
+    };
 
-    // for loop
-    let arr = [10, 20, 30, 40, 50];
-    for ele in arr.iter() {
-        println!("Element of array is {}", ele);
-    }
+    println!("The value of number is: {}", number);
 }
