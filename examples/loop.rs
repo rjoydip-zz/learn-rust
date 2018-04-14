@@ -16,4 +16,10 @@ fn main() {
     for ele in arr.iter() {
         println!("Element of array is {}", ele);
     }
+
+    // loop reversed array 
+    for number in (1..4).rev() {
+        println!("{}!", number);
+    }
+    println!("LIFTOFF!!!");
 }
