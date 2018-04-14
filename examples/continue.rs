@@ -1,5 +1,5 @@
 fn main() {
-    // enumerate
+    // continue
     for i in 1..20 {
         if i == 2 {
             continue;

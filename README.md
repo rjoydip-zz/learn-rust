@@ -20,13 +20,15 @@ npm start
 ## Table of contents
 
 - [Hello rust](examples/hello.rs#L2)
-- [Simple variable](examples/var.rs#L4)
-- [Mutable variable](examples/var.rs#L9)
-- [Multiple variable](examples/var.rs#L15)
-- [If Else](examples/control_flow.rs#L1)
+- [Variables](examples/var.rs#L1)
+    - [Simple variable](examples/var.rs#L4)
+    - [Mutable variable](examples/var.rs#L9)
+    - [Multiple variable](examples/var.rs#L15)
+- [If else](examples/control_flow.rs#L1)
 - [If in a let](examples/control_flow.rs#L14)
 - [Loop](examples/loop.rs#L1)
 - [Break](examples/break.rs#L1)
+- [Continue](examples/continue.rs#L1)
 - [Enumerate](examples/break.rs#L1)
 
 ## Concepts
