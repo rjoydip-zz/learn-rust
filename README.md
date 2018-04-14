@@ -23,3 +23,5 @@ npm start
 - [Simple variable](examples/var.rs#L4)
 - [Mutable variable](examples/var.rs#L9)
 - [Multiple variable](examples/var.rs#L15)
+- [If Else](examples/if_else.rs#L1)
+- [Loop](examples/loop.rs#L1)
