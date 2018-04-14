@@ -1,0 +1,23 @@
+{
+  "name": "learn-rust",
+  "version": "1.0.0",
+  "description": "Simple hello rust",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "cargo clean && cargo run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjoydip/learn-rust.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjoydip/learn-rust/issues"
+  },
+  "homepage": "https://github.com/rjoydip/learn-rust#readme"
+}
