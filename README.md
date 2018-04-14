@@ -20,6 +20,6 @@ npm start
 ## Table of contents
 
 - [Hello rust](examples/hello.rs#L2)
-- [Simple variable](examples/variables/var.rs#L4)
-- [Mutable variable](examples/variables/var.rs#L9)
-- [Multiple variable](examples/variables/var.rs#L15)
+- [Simple variable](examples/var.rs#L4)
+- [Mutable variable](examples/var.rs#L9)
+- [Multiple variable](examples/var.rs#L15)
