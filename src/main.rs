@@ -1,14 +1,11 @@
 fn main() {
 
-    let x = 4;
+    let x = 1;
+    let y = 3;
 
-    match x {
-        0 => { println!("Value is 0"); }
-        1 => { println!("Value is 1"); }
-        2 => { println!("Value is 2"); }
-        3 => { println!("Value is 3"); }
-        4 => { println!("Value is 4"); }
-        5 => { println!("Value is 5"); }
-        _ => { println!("Any value match"); }
+    match (x, y) {
+        (x,y) if x > y => { println!("Decreasing"); }
+        (x,y) if y > x => { println!("Increasing"); }
+        _              => { println!("Equal")}
     }
 }
