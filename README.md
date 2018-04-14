@@ -26,6 +26,7 @@ npm start
 - [If Else](examples/control_flow.rs#L1)
 - [If in a let](examples/control_flow.rs#L14)
 - [Loop](examples/loop.rs#L1)
+- [Break](examples/break.rs#L1)
 
 ## Concepts
 
