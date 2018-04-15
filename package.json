@@ -4,7 +4,7 @@
   "description": "Simple hello rust",
   "main": "index.js",
   "directories": {
-    "example": "examples"
+    "examples": "examples"
   },
   "scripts": {
     "start": "cargo clean && cargo run"
