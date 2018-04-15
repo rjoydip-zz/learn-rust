@@ -32,6 +32,7 @@ npm start
 - [Enumerate](examples/break.rs#L1)
 - [String](examples/string.rs#L1)
 - [Match](examples/match.rs#L1)
+- [Owenership and Borrowing](examples/owenership_borrowing.rs#L1)
 
 ## Concepts
 
