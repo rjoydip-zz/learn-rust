@@ -33,6 +33,8 @@ npm start
 - [String](examples/string.rs#L1)
 - [Match](examples/match.rs#L1)
 - [Struct](examples/struct.rs#L1)
+- [Implement](examples/implement.rs#L1)
+- [Related function](examples/related_fn.rs#L1)
 - [Owenership and Borrowing](examples/owenership_borrowing.rs#L1)
 
 ## Concepts
