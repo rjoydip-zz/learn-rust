@@ -46,4 +46,20 @@ fn main() {
         4...7 => println!("In between 4...7: {}", a),
         _ => println!("Not in between 4...7"),
     }
+
+    // pair/tuple match
+    let pair = (1, 0);
+    match pair {
+        (0, y) => println!("y: {}", y),
+        (x, 0) => println!("x: {}", x),
+        _ => println!("Not match"),
+    }
+
+    // pattern match
+    let p = 11;
+    match p {
+        n @ 1 ... 10 => println!("Between 1 to 10 : {}", n),
+        n @ 11 ... 20 => println!("Between 11 to 20 : {}", n),
+        _ => println!("Not match"),
+    }
 }
