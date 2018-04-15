@@ -41,6 +41,7 @@ npm start
 - [Pretty print](examples/pretty_print.rs) // somehow not working
 - [Enum in vector](examples/enum_vector.rs)
 - [Char match](examples/char_match.rs)
+- [Casting](examples/casting.rs)
 - [Owenership and Borrowing](examples/owenership_borrowing.rs)
 
 ## Concepts
