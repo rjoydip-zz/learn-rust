@@ -39,6 +39,7 @@ npm start
 - [Enum](examples/enums.rs)
 - [Related function](examples/related_fn.rs)
 - [Pretty print](examples/pretty_print.rs) // somehow not working
+- [Enum in vector](examples/enum_vector.rs)
 - [Owenership and Borrowing](examples/owenership_borrowing.rs)
 
 ## Concepts
