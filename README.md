@@ -19,23 +19,23 @@ npm start
 
 ## Table of contents
 
-- [Hello rust](examples/hello.rs#L2)
-- [Variables](examples/var.rs#L1)
+- [Hello rust](examples/hello.rs)
+- [Variables](examples/var.rs)
     - [Simple variable](examples/var.rs#L4)
     - [Mutable variable](examples/var.rs#L9)
     - [Multiple variable](examples/var.rs#L15)
-- [If else](examples/control_flow.rs#L1)
+- [If else](examples/control_flow.rs)
 - [If in a let](examples/control_flow.rs#L14)
-- [Loop](examples/loop.rs#L1)
-- [Break](examples/break.rs#L1)
-- [Continue](examples/continue.rs#L1)
-- [Enumerate](examples/break.rs#L1)
-- [String](examples/string.rs#L1)
-- [Match](examples/match.rs#L1)
-- [Struct](examples/struct.rs#L1)
-- [Implement](examples/implement.rs#L1)
-- [Related function](examples/related_fn.rs#L1)
-- [Owenership and Borrowing](examples/owenership_borrowing.rs#L1)
+- [Loop](examples/loop.rs)
+- [Break](examples/break.rs)
+- [Continue](examples/continue.rs)
+- [Enumerate](examples/break.rs)
+- [String](examples/string.rs)
+- [Match](examples/match.rs)
+- [Struct](examples/struct.rs)
+- [Implement](examples/implement.rs)
+- [Related function](examples/related_fn.rs)
+- [Owenership and Borrowing](examples/owenership_borrowing.rs)
 
 ## Concepts
 
