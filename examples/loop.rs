@@ -22,4 +22,54 @@ fn main() {
         println!("{}!", number);
     }
     println!("LIFTOFF!!!");
+
+    // loop with enumerate
+    for (i, x) in (1..10).enumerate() {
+        println!("index is: {} and value is: {}", i, x);
+    }
+
+    /**
+     * Break
+     **/
+    let mut x = 0;
+
+    // break with loop
+    loop {
+        println!("Value of i is  {}", x);
+        if x >= 10 {
+            break;
+        }
+
+        x+= 1;
+    }
+
+    // break with while
+    while x < 100 {
+        println!("Value of i is  {}", x);
+        if x >= 10 {
+            break;
+        }
+
+        x+= 1;
+    }
+
+    // break with for
+    for _ele in 1..100 {
+        println!("Value of i is  {}", x);
+        if x >= 10 {
+            break;
+        }
+
+        x+= 1;
+    }
+
+    /**
+     * Continue
+     **/
+    for i in 1..20 {
+        if i == 2 {
+            continue;
+        }
+        println!("Value of i is: {}", i);
+    }
 }
