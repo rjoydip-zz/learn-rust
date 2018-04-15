@@ -1,11 +1,13 @@
 fn main() {
     let s = Some('c');
 
-    // match s {
-    //     Some(i) => println!("Value inside match: {}", i),
-    //     None => {},
-    // }
+    // match 1
+    match s {
+        Some(i) => println!("Value inside match: {}", i),
+        None => {},
+    }
 
+    // match 2
     if let Some(i) = s {
         println!("Value inside if: {}", i);
     } else {
