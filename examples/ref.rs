@@ -1,16 +1,3 @@
-
-enum Direction {
-    Up(Point),
-    Down(Point),
-    Left(Point),
-    Right(Point),
-}
-
-struct Point {
-    x: i32,
-    y: i32,
-}
-
 fn main() {
     let a = 10;
     let b = &a;

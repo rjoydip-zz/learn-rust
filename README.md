@@ -33,6 +33,7 @@ npm start
     - [Continue](examples/loop.rs#L67)
 - [String](examples/string.rs)
 - [Match](examples/match.rs)
+- [Reference](exaples/ref.rs)
 - [Struct](examples/struct.rs)
 - [Implement](examples/implement.rs)
 - [Related function](examples/related_fn.rs)
