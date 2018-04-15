@@ -42,6 +42,7 @@ npm start
 - [Enum in vector](examples/enum_vector.rs)
 - [Char match](examples/char_match.rs)
 - [Casting](examples/casting.rs)
+- [Trait](examples/trait.rs)
 - [Owenership and Borrowing](examples/owenership_borrowing.rs)
 
 ## Concepts
