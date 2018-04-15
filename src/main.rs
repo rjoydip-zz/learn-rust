@@ -1,23 +1,26 @@
 
-enum Direction {
-    Up(Point),
-    Down(Point),
-    Left(Point),
-    Right(Point),
+enum Shape {
+    Rectangle { height: u32, width: u32},
+    Square(u32),
+    Circle(f64)
 }
 
-struct Point {
-    x: i32,
-    y: i32,
+impl Shape {
+    fn area(&self) -> f64 {
+        match *self {
+            Shape::Rectangle { height, width } => (height * width) as f64,
+            Shape::Square(ref s) => (s * s) as f64,
+            Shape::Circle(ref r) => 3.14 * (r * r),
+        }
+    }
 }
 
 fn main() {
-    let a = 10;
-    let b = &a;
-    let ref c = a;
+    let r = Shape::Rectangle { height: 10, width: 10 };
+    let s = Shape::Square(10);
+    let c = Shape::Circle(4.5);
 
-    println!("A: {}, B: {}, C: {}", a, b, c);
-    if b == c {
-        println!("B and C are equal");
-    }
+    println!("Area of rectangle: {}", r.area());
+    println!("Area of square: {}", s.area());
+    println!("Area of circle: {}", c.area());
 }

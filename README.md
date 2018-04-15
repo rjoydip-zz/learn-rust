@@ -36,6 +36,7 @@ npm start
 - [Reference](exaples/ref.rs)
 - [Struct](examples/struct.rs)
 - [Implement](examples/implement.rs)
+- [Enum](examples/enums.rs)
 - [Related function](examples/related_fn.rs)
 - [Pretty print](examples/pretty_print.rs) // somehow not working
 - [Owenership and Borrowing](examples/owenership_borrowing.rs)
