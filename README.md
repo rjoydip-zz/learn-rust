@@ -52,7 +52,7 @@ npm start
 - [Vector enum](#vector-enum)
 - [Char match](#char-match)
 - [Trait](#trait)
-- [Owenership and Borrowing](#owenership_borrowing)
+- [Ownership and Borrowing](#ownership-and-borrowing)
 
 ### Hello rust
 

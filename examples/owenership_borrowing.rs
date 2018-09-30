@@ -6,7 +6,7 @@ fn main() {
 
     let s = String::from("String");
     let y = s; // moved refrence s owenership to y
-    // NOTE: only one reference can own one pice of data
+               // NOTE: only one reference can own one pice of data
     println!("{}", s);
 }
 
@@ -22,7 +22,7 @@ fn main() {
     let mut _v = Vec::new();
     for i in 1..10 {
         _v.push(i);
-    }        
+    }
     take(_v); // transfering _v owenership from main -> take
     println!("Finihed");
 }
@@ -32,15 +32,7 @@ fn main() {
  **/
 // example is called owenership copy
 fn copy(a: i32, b: i32) {
-    println!("Value of a and b is (inside copy fn): {}, {}",a, b);
-}
-
-fn main() {
-    let a = 1;
-    let b = 2;
-    copy(a, b);
-    // unallocated from main because a,b just copied to another fn 
-    println!("Value of a and b is (inside main fn): {}, {}", a, b);
+    println!("Value of a and b is (inside copy fn): {}, {}", a, b);
 }
 
 /**
@@ -48,7 +40,7 @@ fn main() {
  **/
 // more complecated
 // taking v paramater reference of v
-fn borrow1(v: &Vec<i32>) { 
+fn borrow1(v: &Vec<i32>) {
     println!("Value of v in borrow1 fn is: {}", (*v)[0]);
 }
 
@@ -61,7 +53,7 @@ fn borrow3(v: &Vec<i32>) {
 }
 
 fn main() {
-    let v = vec![1,2,3,4,5];
+    let v = vec![1, 2, 3, 4, 5];
 
     borrow1(&v);
     borrow2(&v);
@@ -80,11 +72,16 @@ fn count(v: &Vec<i32>, val: i32) -> usize {
 }
 
 fn main() {
-    let v = vec![1,2,1,2,1,3,4,5,3];
+    let a = 1;
+    let b = 2;
+    let v = vec![1, 2, 1, 2, 1, 3, 4, 5, 3];
 
     for &i in &v {
         let c = count(&v, i); // c an &v are borrowed
         println!("{} is repeated {} times", i, c);
     }
+    
+    copy(a, b);
+    // unallocated from main because a,b just copied to another fn
+    println!("Value of a and b is (inside main fn): {}, {}", a, b);
 }
-main();

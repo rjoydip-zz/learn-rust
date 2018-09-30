@@ -29,4 +29,3 @@ fn main() {
 
     println!("Circle area: {}, Rectangle area: {}", c.area(), r.area());
 }
-main();

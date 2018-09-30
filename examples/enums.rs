@@ -24,4 +24,3 @@ fn main() {
     println!("Area of square: {}", s.area());
     println!("Area of circle: {}", c.area());
 }
-main();

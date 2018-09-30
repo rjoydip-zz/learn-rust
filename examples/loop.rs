@@ -72,4 +72,3 @@ fn main() {
         println!("Value of i is: {}", i);
     }
 }
-main();

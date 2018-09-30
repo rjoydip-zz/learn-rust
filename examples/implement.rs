@@ -29,4 +29,3 @@ fn main() {
     let obj = Object::new(o.width, o.height);
     obj.show();
 }
-main();
