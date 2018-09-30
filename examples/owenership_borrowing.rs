@@ -20,13 +20,10 @@ fn take(_v: Vec<i32>) {
 
 fn main() {
     let mut _v = Vec::new();
-
     for i in 1..10 {
         _v.push(i);
     }        
-
     take(_v); // transfering _v owenership from main -> take
-
     println!("Finihed");
 }
 
@@ -90,3 +87,4 @@ fn main() {
         println!("{} is repeated {} times", i, c);
     }
 }
+main();

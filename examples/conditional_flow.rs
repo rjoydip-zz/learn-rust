@@ -1,5 +1,4 @@
 fn main() {
-    // simple conditional flow
     let x = 10;
 
     if x == 1 {
@@ -10,7 +9,7 @@ fn main() {
         println!("Inside else");
     }
 
-    // if in a let
+    // if else with let
     let condition = false;
 
     let number = if condition {
@@ -21,3 +20,5 @@ fn main() {
 
     println!("The value of number is: {}", number);
 }
+
+main();

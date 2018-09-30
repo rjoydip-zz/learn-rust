@@ -1,8 +1,7 @@
 {
   "name": "learn-rust",
   "version": "1.0.0",
-  "description": "Simple hello rust",
-  "main": "index.js",
+  "description": "Learn rust programing language",
   "directories": {
     "examples": "examples"
   },

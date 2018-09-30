@@ -8,3 +8,4 @@ fn main() {
         println!("B and C are equal");
     }
 }
+main();

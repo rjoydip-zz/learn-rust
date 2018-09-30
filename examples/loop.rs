@@ -21,7 +21,6 @@ fn main() {
     for number in (1..4).rev() {
         println!("{}!", number);
     }
-    println!("LIFTOFF!!!");
 
     // loop with enumerate
     for (i, x) in (1..10).enumerate() {
@@ -73,3 +72,4 @@ fn main() {
         println!("Value of i is: {}", i);
     }
 }
+main();

@@ -14,3 +14,5 @@ fn main() {
     let _concat = _str1 + " and "+ &_str2;
     println!("{:?}", &_concat);
 }
+
+main();

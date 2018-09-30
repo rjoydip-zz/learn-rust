@@ -14,3 +14,4 @@ fn main() {
         println!("Inside else");
     }
 }
+main();

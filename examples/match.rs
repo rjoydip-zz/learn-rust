@@ -63,3 +63,5 @@ fn main() {
         _ => println!("Not match"),
     }
 }
+
+main();

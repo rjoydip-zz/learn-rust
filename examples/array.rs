@@ -20,3 +20,5 @@ fn main() {
     let _arr = [1; 5];
     println!("Array length is {}", _arr.len());
 }
+
+main();

@@ -23,3 +23,4 @@ fn main() {
 
     hm.remove(&String::from("hello"));
 }
+main();

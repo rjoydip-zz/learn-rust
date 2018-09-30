@@ -21,3 +21,4 @@ fn main() {
     // display disimal value
     println!("Display output 1: {:.2}", 1.234);
 }
+main();
